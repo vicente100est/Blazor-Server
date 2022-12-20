@@ -2,6 +2,7 @@
 @using Business
 @inject B_Product product
 @inject B_Category category
+@inject NavigationManager NavManager
 
 <div>
     <h1 class="text-center">Crear Nuevo Producto</h1>
@@ -27,6 +28,7 @@
                 }
             </InputSelect>
         </div>
+        <hr/>
 
         <input type="button" value="Guardar" @onclick="SaveProduct" />
     </EditForm>
@@ -44,5 +46,6 @@
     private void SaveProduct()
     {
         product.CreateProduct(oProduct);
+        NavManager.NavigateTo("prdocut/list");
     }
 }

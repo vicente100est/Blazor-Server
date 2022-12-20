@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventary.Entities", "Inven
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventary.DataAccess", "Inventary.DataAccess\Inventary.DataAccess.csproj", "{9EA9EA6F-4ECD-4C93-96A0-F1DAE20C04DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventary.Business", "Inventary.Business\Inventary.Business.csproj", "{8870AE68-A268-4FD8-B7D3-7E3A75B74282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inventary.Business", "Inventary.Business\Inventary.Business.csproj", "{8870AE68-A268-4FD8-B7D3-7E3A75B74282}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
